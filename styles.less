@@ -1,0 +1,39 @@
+::shadow{
+  .gutter .cursor-line {
+    background-color: fade(green, 40%);
+  }
+  .highlights {
+    .selection .region {
+      background: fade(green, 80%);
+    }
+    .find-result .region {
+      border: 1px solid fade(green, 100%);
+    }
+  }
+
+}
+
+atom-workspace
+{
+    background-image: url("/home/zack/ピクチャ/test6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+atom-text-editor, .tab-bar .tab, .tab-bar .tab:before, .tab-bar .tab:after, .tab-bar:after,
+ .tool-panel
+{
+    background: none;
+}
+
+.tree-view
+{
+    background-image: none !important;
+    background-color: rgba(255, 255, 255, .0);
+}
+
+atom-text-editor::shadow .lines .line.cursor-line {
+    background-color: transparent;
+    border-bottom: 2px solid rgba(250, 150, 0, 1);
+}
